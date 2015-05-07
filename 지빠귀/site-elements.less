@@ -1,0 +1,27 @@
+body {
+  @context: 14em;
+
+  nav#mobile-menu {
+    // Desired height 45px, minus padding of 7px.
+    height: unit((45/@context - 14/@context), em);
+    padding: unit((7/@context), em) 0;
+   
+    // Logo and site name.
+    h1 {
+      font-size: 14/@context;
+      span.tizen {
+        @logoHeight: 18;
+        float: left;
+        height: @logoHeight/@context;
+        // PNG is 500 pixels wide by 111 pixels high, so multiply our height by
+        // that ratio to determine the width.
+        width: (@logoHeight/@context) * 500/111em;
+        margin-right: unit((7/@context), em);
+        background: transparent url(../images/tizen-logo-no-pinwheel.png) no-repeat 0 0;
+        background-size: 100% 100%;
+        font-size: 16/@context;
+      }
+    }
+
+         }
+ }
