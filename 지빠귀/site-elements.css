@@ -1,0 +1,16 @@
+body nav#mobile-menu {
+  height: 2.21428571em;
+  padding: 0.5em 0;
+}
+body nav#mobile-menu h1 {
+  font-size: 1;
+}
+body nav#mobile-menu h1 span.tizen {
+  float: left;
+  height: 1.28571429;
+  width: 5.79150579;
+  margin-right: 0.5em;
+  background: transparent url(../images/tizen-logo-no-pinwheel.png) no-repeat 0 0;
+  background-size: 100% 100%;
+  font-size: 1.14285714;
+}
